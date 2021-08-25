@@ -1,0 +1,30 @@
+{
+    "uuid": "uuid2",
+    "company": {
+        "user_created": true,
+        "logo": "logo",
+        "ticker": "ticker",
+        "name": "name",
+        "sector": "sector",
+        "location": "location",
+        "exchange": "exchange",
+        "currency": "currency",
+        "2020_fcf": 111,
+        "short_term_debt": -500,
+        "shares_outstanding": 350,
+        "5_year_average_fcf_growth": "1",
+        "volatility_score": "volatilityScore"
+    },
+    "calculation_data": {
+        "calculation_type": "fiveYearAvg",
+        "required_ror": 0.1,
+        "terminal_growth_rate": 0.2,
+        "include_coh_std": true,
+        "margin_of_safety": 0.4,
+        "number_of_years": 5,
+        "percentages": {
+            "a": 0.6,
+            "b": null
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "calculation_type": "fiveYearAvg",
+    "required_ror": 0.1,
+    "terminal_growth_rate": 0.2,
+    "include_coh_std": true,
+    "margin_of_safety": 0.4,
+    "number_of_years": 5,
+    "percentages": {
+        "a": 0.6,
+        "b": null
+    }
+}
