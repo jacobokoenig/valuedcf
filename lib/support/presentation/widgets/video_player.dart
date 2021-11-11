@@ -17,7 +17,7 @@ class _VideoPlayerState extends State<VideoPlayerView> {
     //     setState(() {});
     // });
     _videoController = VideoPlayerController.network(
-        'https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4')
+        'https://firebasestorage.googleapis.com/v0/b/the-nice-place-7a50b.appspot.com/o/Value%20DCF%20explainer.mp4?alt=media&token=25822db3-ff3e-4be5-8691-32a187488dd4')
       ..initialize().then((_) {
         setState(() {
           _videoController.pause();
